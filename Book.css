@@ -1,0 +1,27 @@
+*{ 
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.details{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+#Heading{
+    color: rebeccapurple;
+}
+
+.wrapper{
+    display:inline-block;
+    margin:40px 40px 30px 60px;
+    flex-direction:row;
+    max-width: 600px;
+    min-width: 500px;
+    border: 1px solid red;
+    padding: 30px;
+   
+}
+
